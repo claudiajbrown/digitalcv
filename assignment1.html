@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <img src="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+       <style>
+        *{font-family: 'Manrope', sans-serif;}
+            .middle {
+                display: grid;
+                grid-template-columns: 1fr;
+                background-color: #e0f3fe;
+            }
+
+            .div1 {
+                padding:40px;
+                border-style:solid;
+            }
+        
+            .header {
+                padding:30px;
+                border-style:solid;
+                background-color: #E3E9EC;
+
+            }
+            ul{
+                list-style-type:none;
+                border-style:solid;
+                border-color:black;
+                display:inline-block;
+                padding:0px;
+                margin:0px;
+            }
+            li a {
+                width:200px;
+                background-color:#e0f3fe;
+                color:black;
+                padding-top:20px;
+                padding-bottom:20px;
+                display:block;
+                text-align:center;
+                text-decoration:none;
+            }
+            li a:hover{
+                background-color:#feeae0;
+            }
+            li a.active {
+                background-color:#D7DCEF;
+
+            }
+            li {
+                float:left;
+            }
+            @media screen and (max-width: 1200px) {
+                .grid {grid-template-columns: 1fr 1fr;}
+            }
+            @media screen and (max-width: 992px) {
+                .grid {grid-template-columns: 1fr;}
+            }
+            @media screen and (max-width: 768px) {
+                .grid {grid-template-columns: 1fr;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            
+            <li><a class="active" href="assignment1.html">Home</a></li>
+            <li><a href="page2.html">Personal Life</a></li>
+            <li><a href="page3.html">Professional Life</a></li>
+        </ul>
+        <div class="header"><h1>About Claudia Brown</h1> </div>
+        <div class="middle">
+            <div class="div1">
+                <h2>Background</h2>
+                <p>Hi, I am Claudia Brown and I am a first-year student at Elon University. I'm a Strategic Communications and Public Health Studies Double Major.
+                    At home in Ringwood, NJ I live with my parents, my 15 year old sister named Delaney, and my two cats. Before coming to Elon, I attended <a href="https://www.lakeland.k12.nj.us/" target="blank"> Lakeland Regional High School</a>, a small public high school.</p>
+                    <img src="IMG_8293.jpg" height="400">
+                    <img src="IMG_9846.jpg" height="400">
+                    <img src="IMG_6057.jpg" height="400">
+                    <img src="IMG_9728.jpg" height="400">
+            </div>
+           
+        </div>
+        <div>
+            <div class="contactinfo">
+               <h3>Contact Info:</h3>
+               <p>cbrown113@elon.edu <br> claudiajbrown7@gmail.com <br> 973-800-6948 </p>
+
+            </div>
+        </div>
+    </body>
+
+</html>
